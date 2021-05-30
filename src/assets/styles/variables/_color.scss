@@ -1,0 +1,14 @@
+:root {
+  // Base colors
+  --color-black: #000;
+  --color-gray: #ccc;
+  --color-dark-gray: #666;
+  --color-dark-mode: #2e3031;
+  --color-white: #fff;
+  --color-peter-river: #3498db;
+
+  // Style Guide colors
+  --color-primary: var(--color-black);
+  --color-secondary: var(--color-white);
+  --color-highlight: var(--color-peter-river);
+}

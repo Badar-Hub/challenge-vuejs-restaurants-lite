@@ -1,0 +1,12 @@
+.store-list {
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    @media(max-width: 599px) {
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+    @media(max-width: 460px) {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+}
